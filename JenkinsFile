@@ -7,22 +7,22 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Build') {
+        stage('Building') {
             steps {
                 echo 'Build'
             }
         }
-        stage('Deploy') {
+        stage('Deploying') {
             steps {
                 echo 'Deploying'
             }
         }
-        stage('Test') {
+        stage('Testing') {
             steps {
                 echo 'Testing'
             }
         }
-        stage('Release') {
+        stage('Releasing') {
             steps {
                 echo 'Releasing'
             }
